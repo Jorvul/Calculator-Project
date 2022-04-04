@@ -23,6 +23,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build With Maven
-      run: mvn clean Package
+      run: mvn clean package
     - name: Execute the Jar File
       run: java -jar target/CalculatorProject-0.0.1-SNAPSHOT-jar-with-dependencies.jar

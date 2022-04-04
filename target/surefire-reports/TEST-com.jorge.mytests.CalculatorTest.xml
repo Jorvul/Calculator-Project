@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.jorge.mytests.CalculatorTest" time="0.237" tests="3" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.jorge.mytests.CalculatorTest" time="0.196" tests="3" errors="0" skipped="1" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -14,7 +14,7 @@
     <property name="os.name" value="Linux"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/mnt/c/Users/jorge/Documents/workspace-spring-tool-suite-4-4.13.1.RELEASE/CalculatorProject/target/surefire/surefirebooter5454749043502862878.jar /mnt/c/Users/jorge/Documents/workspace-spring-tool-suite-4-4.13.1.RELEASE/CalculatorProject/target/surefire 2022-04-01T15-13-13_471-jvmRun1 surefire6297148501786120900tmp surefire_013097678243377965919tmp"/>
+    <property name="sun.java.command" value="/mnt/c/Users/jorge/Documents/workspace-spring-tool-suite-4-4.13.1.RELEASE/CalculatorProject/target/surefire/surefirebooter11224617033810901056.jar /mnt/c/Users/jorge/Documents/workspace-spring-tool-suite-4-4.13.1.RELEASE/CalculatorProject/target/surefire 2022-04-04T11-36-06_402-jvmRun1 surefire9121076585408168753tmp surefire_011077401770946491990tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/mnt/c/Users/jorge/Documents/workspace-spring-tool-suite-4-4.13.1.RELEASE/CalculatorProject/target/test-classes:/mnt/c/Users/jorge/Documents/workspace-spring-tool-suite-4-4.13.1.RELEASE/CalculatorProject/target/classes:/home/jorge/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/home/jorge/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/jorge/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/jorge/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/jorge/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/jorge/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/home/jorge/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/home/jorge/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/mnt/c/Users/jorge/Documents/workspace-spring-tool-suite-4-4.13.1.RELEASE/CalculatorProject/target/surefire/surefirebooter5454749043502862878.jar"/>
+    <property name="surefire.real.class.path" value="/mnt/c/Users/jorge/Documents/workspace-spring-tool-suite-4-4.13.1.RELEASE/CalculatorProject/target/surefire/surefirebooter11224617033810901056.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.13+8-Ubuntu-0ubuntu1.20.04"/>
     <property name="user.name" value="jorge"/>
@@ -60,6 +60,6 @@
     <system-out><![CDATA[Creating Object 
 ]]></system-out>
   </testcase>
-  <testcase name="testAdd" classname="com.jorge.mytests.CalculatorTest" time="0.064"/>
-  <testcase name="testDivision" classname="com.jorge.mytests.CalculatorTest" time="0.021"/>
+  <testcase name="testAdd" classname="com.jorge.mytests.CalculatorTest" time="0.04"/>
+  <testcase name="testDivision" classname="com.jorge.mytests.CalculatorTest" time="0.011"/>
 </testsuite>
